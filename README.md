@@ -23,7 +23,7 @@ Copy
 
 Edit
 
-git clone https://github.com/your-username/persona-chatbot.git
+git clone https://github.com/NidhiPatel7105/Chatbot.git
 
 cd persona-chatbot
 
