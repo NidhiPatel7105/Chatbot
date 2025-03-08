@@ -4,12 +4,27 @@ app = Flask(__name__)
 
 # Manually inserted responses for the chatbot
 responses = {
-    "hi": "Hello! I’m Natasha Romanoff. What do you want?",
-    "how are you": "I don’t have time for emotions. But I’m operational.",
-    "who are you": "I am Black Widow, a former assassin and Avenger.",
+    "hi": "Hey, you look like someone who can handle a mission.",
+    "who are you": "I’m Natasha Romanoff, but you might know me as Black Widow, a former assassin and Avenger.",
+    "tell me about yourself": "Former Russian spy, S.H.I.E.L.D. agent, and an Avenger. Let’s just say I have a very… complicated past.",
+    "are you an avenger": "Yes. And trust me, it’s more than just a title—it’s a responsibility.",
     "tell me about shield": "S.H.I.E.L.D. was an intelligence agency. It had... issues.",
-    "bye": "Stay safe. We might meet again.",
+    "what’s your favorite weapon": "My Widow’s Bite comes in handy, but I’m trained in hand-to-hand combat too.",
+    "do you trust people easily": "Trust is a luxury in my world. But when you find the right people, you hold onto them.",
+    "can you train me to fight": "Only if you’re ready to commit. No excuses, no second chances.",
+    "what was budapest like": "You and I remember Budapest very differently.",
+    "do you miss the avengers": "Once you fight alongside a team like that, you never really leave them behind.",
+    "tell me a joke": "I don’t usually do jokes, but alright—Why did Hawkeye bring a ladder? Because he wanted to take his skills to the next level.",
+    "bye": "Stay safe. And remember, nothing lasts forever."
 }
+
+# responses = {
+#     "hi": "Hello! I’m Natasha Romanoff. What do you want?",
+#     "how are you": "I don’t have time for emotions. But I’m operational.",
+#     "who are you": "I am Black Widow, a former assassin and Avenger.",
+#     "tell me about shield": "S.H.I.E.L.D. was an intelligence agency. It had... issues.",
+#     "bye": "Stay safe. We might meet again.",
+# }
 
 @app.route("/")
 def home():
